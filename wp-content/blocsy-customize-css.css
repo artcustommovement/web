@@ -1,0 +1,511 @@
+.htslider-slider-area {
+	--container-max-width: initial;
+}
+.ct-iconbox .elementor-icon,
+.ct-iconbox .elementor-icon-box-title,
+.ct-iconbox .elementor-icon-box-description {
+	transition: all 0.3s ease;
+}
+.ct-iconbox:hover .elementor-icon,
+.ct-iconbox:hover .elementor-icon-box-title,
+.ct-iconbox:hover .elementor-icon-box-description { 
+	fill: var(--paletteColor8) !important;
+	color: var(--paletteColor8) !important 
+}
+.ct-footer button[type=submit] {
+	border-radius:60px!important;
+	color:#FFFFFF!important;
+	width:180px;
+	height:40px;
+}
+.ct-footer input[type=email]{
+	border-radius:30px!important;
+	width:auto!important;
+	height:50px!important;
+	width:250px!important;
+	
+}
+.ct-footer button[type=submit]:hover,
+.ct-footer button[type=submit]:active{
+    background-color:#005F81!important;
+}
+.wpforms-confirmation-scroll{
+    background-color:#E7FAFF!important;
+	border:0px!important;
+}
+body.jm-mfp-is-open {
+	position: initial !important;
+}
+.ct-footer input,.elementor-element-260a3f0 p{
+	margin:0px;
+}
+@media only screen and (min-width: 1024px){.ct-footer input,.elementor-element-260a3f0 p{
+	margin-left:50px!important;
+}}
+.wpforms-submit-container{
+	overflow-wrap: normal!important;
+}
+#block-55{
+	margin:0px;!important;
+}
+.ct-panel-content .search-form,.modal-field{
+	color:#000!important;
+}
+.ct-header-account svg{
+	width:20px!important;
+	height:20px!important;
+	}
+@media (max-width:768px){
+	.ct-header-account svg{
+	width:25px!important;
+	height:25px!important;
+	}
+}
+.elementor-button--view-cart, .elementor-button--checkout{
+	background-color: #00ABE7!important;
+}
+.elementor-button--view-cart:hover, .elementor-button--checkout:hover{
+	background-color: #005F81!important;
+}
+:root{
+	--paletteColor6:#000;
+	--form-field-height: 40px;
+}
+.single_add_to_cart_button{
+    margin-left: var(--button-spacing,2px)!important;
+}
+.wcfmmp_sold_by_wrapper .woocommerce-LoopProduct-link,.wcfmmp_sold_by_wrapper .wcfm_dashboard_item_title,.wcfmmp_sold_by_wrapper{
+	width:auto!important;
+	font-size:10px!important;
+}
+.elementor-element li a,.wcfm_dashboard_item_title{
+		white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+body {
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Emoji", "Helvetica", sans-serif;
+}
+.wcfmmp_sold_by_container .wcfmmp_sold_by_wrapper{
+	display:flex!important;
+}
+.wcfmmp_sold_by_container 
+.wcfm_vendor_badges{
+	margin-top:0px;
+	margin-left:5px;
+}
+.email_form form{
+	margin-left:-50px!important;
+}
+.product .price{
+	margin-bottom:0px;
+}
+/* sold by custom */
+.wcfmmp-store-rating {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.review_rating_count {
+  display: inline-block;
+  vertical-align: middle; /* 根据需要调整评价数量与星级评分之间的间距 */
+}
+.review_rating_count,.wcfmmp_sold_by_container .wcfmmp-store-rating{
+		font-size:12px!important;
+	}
+.wcfmmp_sold_by_container .wcfmmp-store-rating{
+}
+/*设置相关产品的列数  */
+@media (max-width: 689.98px) {
+    .related [data-products], .upsells [data-products] {
+    --shop-columns: repeat(2,minmax(0,1fr));
+    }
+}
+@media (min-width: 690px) and (max-width: 1023px) {
+    .related [data-products], .upsells [data-products] {
+    --shop-columns: repeat(4,minmax(0,1fr));
+    }
+}
+/* 供应商商店评论样式 */
+.user_review_area{
+	text-align: right;
+}
+.bd_rating_area{
+	width:100%!important;
+	margin-top:-10px;
+}
+.user_review_sec{
+		width:100%!important
+}
+.wcfm_custom_user_name{
+	margin-bottom:0px!important;
+}
+.wcfm_custom_user_review_text{
+	margin-top:0px!important;
+}
+.wcfm_custom_user_date{
+	margin-left:0px!important;
+}
+.wcfm_custom_rating_number{
+	background-color:white!important;
+	color:black!important;
+}
+.wcfm_custom_rating{
+	margin:auto;
+	text-align:center;
+}
+.wcfm_custom_bd_rating_area{
+	display:grid;
+}
+.wcfm_custom_rating_box{
+	margin-top:10px!important;
+}
+/* 供应商评论手机端星星显示*/
+@media screen and (max-width: 667px) {
+    #wcfmmp-store.wcfmmp-single-store-holder .user_review_sec .bd_rating_area {
+        display: block !important;
+    }
+}
+/* 商品详情页评论样式 */
+#reviews .woocommerce-Reviews-title{
+	display:none;
+}
+/* 商品详情页messages按钮样式 */
+.inquiry_button .wcfm_catalog_enquiry{
+	background-color:#000!important;
+	border-bottom:0px!important;
+} 
+.inquiry_button .wcfm_catalog_enquiry:hover{
+	background-color:#fff!important;
+	border:1px solid #000;
+} 
+/* 页头样式 */
+#header{z-index:998;}
+/* 注册成功等待审核页面样式 */
+.wcfm_membership_thankyou_content_wrapper{
+	background-color:#fff!important;
+}
+/* 商店中管理员商品列表左上角的三个按钮样式 */
+.wcfm_buttons{
+	z-index:997!important;
+}
+/* 设置input type="checkbox样式" */
+.ct-checkbox,.comment-form input[type=checkbox],#ship-to-different-address-checkbox,.wc-block-checkbox-list input[type=checkbox],.wc-block-checkbox-list .wc-block-components-checkbox .wc-block-components-checkbox__input[type=checkbox],.woocommerce-form__input[type=checkbox],.woocommerce-form__label-for-checkbox input[type=checkbox],#wc-stripe-new-payment-method[type=checkbox],.ppcp-credit-card-vault[type=checkbox],.forminator-ui[data-design=none] .forminator-checkbox input[type=checkbox],.wpforms-container:not(.wpforms-container-full) input[type=checkbox],.wc_payment_method>input[type=radio],.woocommerce-shipping-methods input[type=radio],.mp-ticket-payments input[type=radio],.forminator-ui[data-design=none] .forminator-radio input[type=radio],.wpforms-container:not(.wpforms-container-full) input[type=radio] {
+    border-color: #000;
+}
+/* 供应商店铺头部心型icon样式 */
+.fa-heart{
+	margin-right:0px!important;
+}
+.fa-heart span{
+	display:inline-block!important;
+}
+
+/* Style added by WCFM support to match the sold by style on the vendor store page */
+.wcfmmp_sold_by_wrapper a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+	cursor: text;
+	pointer-events: none;
+}
+.wcfmmp_sold_by_wrapper a.woocommerce-LoopProduct-link.woocommerce-loop-product__link span.wcfmmp_sold_by_label {
+	color: #000;
+}
+
+#wcfmmp-store .wcfm_vendor_badges div.wcfm_vendor_badge {
+	margin-top: 0 !important;
+}
+
+#wcfmmp-store .woocommerce ul.products li.product h2 {
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	max-width: 130px; 
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+#wcfmmp-store .woocommerce ul.products li a{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+#wcfmmp-store .woocommerce ul.products li.product a:hover h2 {
+	color: #686f6fcf !important;
+}
+
+#wcfmmp-store .woocommerce ul.products li.product .ct-woo-card-actions {
+	padding-top: 0;
+}
+/* 商品详情页图片上传的样式 */
+.custom-file-upload {
+  display: inline-block;
+  background-color: #f5f5f5;
+  color: #444;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #e0e0e0;
+}
+.wcpr_image_upload {
+  display: none;
+}
+/* 供应商商店商品标题样式 */
+#wcfmmp-store ins{
+	background-color:#fff!important;
+}
+/* 供应商商店认证标志 */
+.wcfmmp_store_mobile_badges{
+	margin-left:5px;
+}
+.#wcfmmp-store .bd_icon_box .follow span{
+	display:inline-block!important;
+}
+/* 供应商店铺名称样式 */
+.wcfmmp_sold_by_wrapper a{
+	color:#00ABE7!important;
+}
+.wcfmmp_sold_by_wrapper .wcfmmp_sold_by_label{
+	color:#ada3a3;
+}
+.wcfmmp_sold_by_wrapper .wcfm_dashboard_item_title{
+	font-weight:300;
+}
+/*供应商商店管理页面中头部标题字体颜色  */
+.wcfm-page-heading-text{
+	color:#fff!important;
+}
+/* 商品详情页中处理时间的样式 */
+@media only screen and (max-width:768px){
+	.custom_time{
+		font-size:12px;
+		margin-left:10px;
+	}
+}
+/* ajax 模态框隐藏 */
+/* .blockOverlay{
+	display:none!important;
+} */
+/* 购物车更新按钮隐藏 */
+button[name="update_cart"] {
+  display: none;
+}
+/* 产品标题隐藏 */
+#reply-title{
+	display:none;
+}
+/* 产品评论星级上移 */
+#review_form_wrapper{
+	margin-top:-40px;
+}
+/* 鼠标移动到购物车按钮时的遮罩隐藏 */
+.ct-header-cart .ct-cart-content{
+	display:none;
+}
+/* 页脚paymen支付方式图片样式 */
+@media (max-width:768px){
+	#footer_payment img{
+	width:10%!important;
+	margin-left:4px;
+	}
+}
+@media (min-width:768px){
+	#footer_payment img{
+	width:5%!important;
+	margin-left:4px;
+	}
+}
+#footer_payment p{
+	display:flex;
+	justify-content: center;
+}
+/* 供应商商店中头像样式 */
+.logo_area img{
+/* 	border:1px solid #000!important; */
+	border-radius:10px;
+}
+/* 供应商商店中社交按钮的样式 */
+.social_area li{
+	border:1px solid #000;
+}
+/* 登录表单的样式 */
+.login_custom_css{
+		width: 100%;
+ 		display: flex;
+ 		justify-content: space-between;
+}
+/* 购物车和结账按钮样式设置 */
+.coupon .button:hover,.checkout-button:hover,#place_order:hover{
+	color:#000!important;
+	border:1px solid #000;
+	background-color:#fff!important;
+}
+/* 购物车商品加减按钮样式 */
+.ct-increase:hover,.ct-decrease:hover{
+	background-color:#000!important;
+}
+.showlogin:hover{
+	border:1px solid #000!important;
+	color:#000!important;
+}
+/* 页头搜索按钮*/
+.custom_search_button::before {
+	font-family: "Font Awesome 5 Free";
+	content: '\f002'; 
+	font-size:20px;
+        }
+.custom_search_button{
+	border:none!important;
+}
+/* 页脚手机版link样式  */
+#custom_footer_link{
+	min-width:280px;
+}
+/* 搜索框样式开始 */
+#search-modal input {
+  --form-field-border-width: 0 0 0 0;
+}
+.search_div_box .ct-search-results .ct-search-item span{
+		max-width: 200px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+	}
+@media (min-width:1024px){
+	#search-modal .search-form .modal-field{
+		margin-bottom:0px!important;
+		height:60px;
+		font-size:15px;
+	}
+	#search-modal .search-form{
+		background-color:#fff;
+		border-radius:5px 5px 5px 5px;
+/* 		margin-top:60px; */
+		border:3px solid #000;
+	}
+	#search-modal .ct-panel-content{
+		padding:0px!important;
+	}
+	[data-header*="type-1"] #search-modal 	.ct-search-results a {
+		padding:10px;
+	}
+	[data-header*="type-1"] #search-modal 	form button {
+		right:20px;
+		top:5px;
+	}
+	.close_button_search{
+		display:none;
+	}
+	#search-modal{
+		display: flex;
+   align-items: center;
+	}
+	.search_div_box{
+		background-color: #fff0;
+		display: flex;
+		height: auto;
+		min-height:80px;
+		width:65%;
+		margin-top:2.5%
+	}
+}
+@media(max-width:768px){
+	#search-modal .search-form{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+			--form-field-border-width: 0 0 0 0;
+	}
+	#search-modal .ct-panel-content{
+		padding:0px!important;
+	}
+	[data-header*="type-1"] #search-modal 	.ct-search-results a {
+		padding:10px;
+	}
+	#search-modal .search-form .modal-field{
+		margin-bottom:0px!important;
+		height:50px;
+		font-size:15px;
+	}
+	[data-header*="type-1"] #search-modal 	form button {
+		right:0px;
+		top:5px;
+	}
+	.search_div_box{
+		background-color: #fff;
+		display: flex;
+		height: auto;
+		min-height:70px;
+		width:100%;
+		margin-top:12%;
+		flex-direction: row-reverse;
+		
+	}
+	.close_button_search{
+		align-items:unset;
+		padding:0px ;
+		margin-top:4%;
+		margin-right:10px;
+	}
+}
+@media(min-width:768px)and (max-width:1024px){
+	#search-modal .search-form{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+/*     margin-top: 14%; */
+	}
+	#search-modal .ct-panel-content{
+		padding:0px!important;
+	}
+	[data-header*="type-1"] #search-modal 	.ct-search-results a {
+		padding:10px;
+	}
+	#search-modal .search-form .modal-field{
+		margin-bottom:0px!important;
+		height:50px;
+		font-size:15px;
+	}
+	[data-header*="type-1"] #search-modal 	form button {
+		right:5px;
+		top:1px;
+	}
+	.search_div_box{
+		background-color: #fff;
+		display: flex;
+		height: auto;
+		min-height:70px;
+		width:100%;
+		margin-top:5%;
+		flex-direction: row-reverse;
+		
+	}
+	.close_button_search{
+		align-items:unset;
+		padding:0px ;
+		margin-top:2%;
+		margin-right:10px;
+	}
+	#search-modal{
+		display: flex;
+   align-items: center;
+	}
+}
+/* 搜索框样式结束 */
+/* 返回去购物按钮样式 */
+.return-to-shop a:hover{
+	color:#000!important;
+	border:1px solid #000;
+}
+/* button类的hover样式 */
+.button:hover{
+	color:#000;
+	border:1px solid #000;
+}
+/* 账户页中订单试图中按钮样式 */
+#wcfm_cus_note_submit:hover{
+	color:#000;
+	border:1px solid #000;
+}
