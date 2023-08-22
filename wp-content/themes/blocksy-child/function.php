@@ -120,3 +120,32 @@ add_action( 'template_redirect', function () {
         }
     }
 });
+
+add_action('wp_footer', function() {
+    if(is_product() || wcfm_is_store_page() || wc_post_content_has_shortcode('wcfm_stores')) {
+    ?>
+        <script>
+        jQuery(function($) {
+            function validateEmail(mailAddr) {
+                return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mailAddr);
+            }
+            $(document.body).on('wcfm_form_validate', function(event, form) {
+                $form = $(form);
+                if($form && $form.attr('id') == 'wcfm_enquiry_form') {
+                    var email = $form.find('#enquiry_email').val();
+                    if(!validateEmail(email)) {
+                        var message = 'Please enter a valid email address'
+                        if( $wcfm_is_valid_form ) {
+                            $('#' + $form.attr('id') + ' .wcfm-message').html( '<span class="wcicon-status-cancelled"></span>' + message ).addClass('wcfm-error').slideDown();
+                        } else {
+                            $('#' + $form.attr('id') + ' .wcfm-message').append( '<br /><span class="wcicon-status-cancelled"></span>' + message);
+                        }
+                        $wcfm_is_valid_form = false;
+                    }
+                }
+            });
+        });
+        </script>
+    <?php
+    }
+});
